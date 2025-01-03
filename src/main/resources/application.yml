@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-repo/config-repo
+          uri: https://github.com/Orisakwe-Nwokocha/Central-Config.git
           clone-on-start: true
