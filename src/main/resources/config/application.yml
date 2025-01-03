@@ -6,6 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Orisakwe-Nwokocha/Central-Config
+          uri: https://github.com/Orisakwe-Nwokocha/Central-Config.git
           clone-on-start: true
           default-label: master
