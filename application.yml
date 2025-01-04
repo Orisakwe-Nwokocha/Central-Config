@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Orisakwe-Nwokocha/Central-Config.git
-          default-label: master
-          ignoreLocalSshSettings: true
-      uri: http://localhost:8773  # Ensure Config Server URI is correctly set
+          uri: https://github.com/Orisakwe-Nwokocha/Central-Config/
+#          default-label: master
+#          ignoreLocalSshSettings: true
+#      uri: http://localhost:8773  # Ensure Config Server URI is correctly set
