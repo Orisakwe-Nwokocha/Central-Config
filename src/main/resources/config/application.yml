@@ -6,6 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://$GIT_USERNAME:$GIT_PASSWORD@github.com/Orisakwe-Nwokocha/Central-Config.git
+          uri: https://github.com/Orisakwe-Nwokocha/Central-Config.git
           default-label: master
           ignoreLocalSshSettings: true
+#          username: ${GIT_USERNAME}
+#          password: ${GIT_PASSWORD}
+
