@@ -1,6 +1,8 @@
 server:
   port: 8773
 
+message: Hello, World!
+
 spring:
   cloud:
     config:
@@ -9,6 +11,4 @@ spring:
           uri: https://github.com/Orisakwe-Nwokocha/Central-Config.git
           default-label: master
           ignoreLocalSshSettings: true
-#          username: ${GIT_USERNAME}
-#          password: ${GIT_PASSWORD}
-
+      uri: http://localhost:8773  # Ensure Config Server URI is correctly set
