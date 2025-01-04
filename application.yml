@@ -4,6 +4,8 @@ server:
 message: Hello, World!
 
 spring:
+  application:
+    name: central-config-b
   cloud:
     config:
       server:
