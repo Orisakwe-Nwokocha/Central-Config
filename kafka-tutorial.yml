@@ -8,6 +8,6 @@ message: Goodbye... maybe!!!
 
 scheduler:
   thread-name-prefix: kafkaProducerThread-
-  poolSize: 10
+  poolSize: 5
   awaitTerminationSeconds: 9
-  daemon: false
+  daemon: true
