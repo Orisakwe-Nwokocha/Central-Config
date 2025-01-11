@@ -8,8 +8,7 @@ notification:
   type: email
 
 spring:
-  application:
-    baseUrl: 'http://localhost:{port}/actuator/refresh'
+  application:    
     name: central-config-b
   cloud:
     config:
