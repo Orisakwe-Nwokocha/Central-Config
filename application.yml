@@ -4,9 +4,6 @@ server:
 message: Hello, World!
 
 
-notification:
-  type: email
-
 spring:
   application:    
     name: central-config-b
