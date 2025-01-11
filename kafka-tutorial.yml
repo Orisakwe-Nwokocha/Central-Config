@@ -11,3 +11,8 @@ scheduler:
   poolSize: 5
   awaitTerminationSeconds: 9
   daemon: true
+
+spring:
+  application:
+    baseUrl: 'http://localhost:{port}/actuator/refresh'
+    
