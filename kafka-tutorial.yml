@@ -2,8 +2,8 @@ server:
   port: 8084
 
 
-# message: Hello World!
-message: Goodbye... maybe!!!
+message: Hello World!
+# message: Goodbye... maybe!!!
 
 
 scheduler:
@@ -13,7 +13,7 @@ scheduler:
   daemon: true
 
 notification:
-  type: email
+  type: emails
   
 spring:
   application:
