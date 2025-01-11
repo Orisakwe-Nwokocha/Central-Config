@@ -12,6 +12,9 @@ scheduler:
   awaitTerminationSeconds: 9
   daemon: true
 
+notification:
+  type: email
+  
 spring:
   application:
     baseUrl: 'http://localhost:{port}/actuator/refresh'
