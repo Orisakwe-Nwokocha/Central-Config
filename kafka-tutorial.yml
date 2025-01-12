@@ -14,7 +14,7 @@ scheduler:
 
 notification:
   # type: email
-  type: smsS
+  type: null
   
 spring:
   application:
