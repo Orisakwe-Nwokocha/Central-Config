@@ -13,8 +13,8 @@ scheduler:
   daemon: true
 
 notification:
-  # type: emails
-  type: sms
+  type: email
+  # type: sms
   
 spring:
   application:
