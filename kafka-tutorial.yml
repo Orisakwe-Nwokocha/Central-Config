@@ -2,8 +2,8 @@ server:
   port: 8084
 
 
-# message: Hello World!
-message: Goodbye... maybe!!!
+message: Hello World!
+# message: Goodbye... maybe!!!
 
 
 scheduler:
@@ -14,7 +14,7 @@ scheduler:
 
 notification:
   # type: email
-  type: sms
+  type: smsS
   
 spring:
   application:
