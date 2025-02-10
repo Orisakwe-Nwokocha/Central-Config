@@ -2,14 +2,14 @@ server:
   port: 8084
 
 
-message: Hello World!
-# message: Goodbye... maybe!!!
+# message: Hello World!
+message: Goodbye... maybe!!!
 
 
 scheduler:
   thread-name-prefix: kafkaProducerThread-
-  poolSize: 5
-  awaitTerminationSeconds: 9
+  poolSize: 51
+  awaitTerminationSeconds: 19
   daemon: true
 
 notification:
