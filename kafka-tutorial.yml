@@ -2,8 +2,8 @@ server:
   port: 8084
 
 
-# message: Hello World!
-message: Goodbye... maybe!!!
+message: Hello World!
+# message: Goodbye... maybe!!!
 
 
 scheduler:
